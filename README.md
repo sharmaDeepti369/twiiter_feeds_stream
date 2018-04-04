@@ -22,6 +22,8 @@ Steps:
 
 * Since its a developement app there is no extar gem for cron job or backgroung job, its simply performed by Active Jobs.
 
-* On Browser run 'hhtp://localhost:3000'
+* On Browser run 'http://localhost:3000'
 
 * If records are already present in DB they will appear else ther will appear in one minute after streaming and append to page.
+
+* Change twitter credentials at 'config/initializers/twitter.rb'
