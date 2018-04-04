@@ -1,0 +1,26 @@
+.tweet{
+    display: flex;
+    padding: 23px;
+    background-color: lightskyblue;
+    border: 1px solid #111;
+    margin: 20px;
+}
+
+.profile-img{
+	float: left;
+    padding-right: 0px;
+}
+.text{
+	float: right;
+    margin-left: 65px;
+}
+.alert{
+	position: fixed;
+    top: 0px;
+    border: 1px solid #111;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    padding-top: 12px;
+    background-color: #ddd;
+}

@@ -1,0 +1,17 @@
+<div class="alert alert-success" id="alert">Streaming New Tweets.....</div>
+<div id="content">
+	<% if @tweets.present? %>
+		<% @tweets.each do |tweet| %>
+			<%= link_to tweet.source  do %>
+				<div class="tweet">
+					<div class="profile-img">
+						<%= image_tag tweet.profile_image %>
+					</div>
+					<div class = "text">
+						<%= tweet.text %>
+					</div>
+				</div>
+			<% end %>
+		<% end %>
+	<% end %>
+</div>
