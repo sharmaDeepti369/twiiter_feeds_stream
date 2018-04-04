@@ -6,9 +6,11 @@ Steps:
 
 * Clone project
 
+* run 'cd <path to project>'
+
 * run 'bundle install'
 
-* Change mysql configuration i.e. username passwordin config/database.yml
+* Change mysql configuration i.e. username password in config/database.yml
 
 * run 'rake db:create db:migrate'
 
@@ -22,4 +24,4 @@ Steps:
 
 * On Browser run 'hhtp://localhost:3000'
 
-* If records are already present in DB they will appear else ther will appear in one minute after streaming.
+* If records are already present in DB they will appear else ther will appear in one minute after streaming and append to page.
