@@ -6,7 +6,7 @@ Steps:
 
 * Clone project
 
-* run 'cd <path to project>'
+* run 'cd path_to_project'
 
 * run 'bundle install'
 
